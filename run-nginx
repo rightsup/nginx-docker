@@ -3,4 +3,4 @@
 (echo "upstream app { server $APP_UPSTREAM_ADDR:$APP_UPSTREAM_PORT; }" && cat /etc/nginx/conf.d/default.conf) > default.conf.new
 mv default.conf.new /etc/nginx/conf.d/default.conf
 
-nginx -g daemon off
+nginx
