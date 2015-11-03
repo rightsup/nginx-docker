@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER Rights'Up <it@rightsup.com>
+MAINTAINER RightsUp <it@rightsup.com>
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY run-nginx /usr/bin/run-nginx
